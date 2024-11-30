@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    background-color: #0a046d;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(206, 242, 245);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+}
+img{
+    width: 90px;
+    height: 90px;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(5, 5, 81);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size : 30px;
+    margin: 10px;
+
+}
+a:hover{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color:rgb(5, 5, 81);
+    color: white;
+}
+.list{
+    color:rgb(5, 5, 81);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 40px;
+    padding-right: 300px;
+    margin-top: 90px;
+}
+h2{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(206, 242, 245);
+}
+p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(206, 242, 245);
+}
+#segundo{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagem{
+    width: 660px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+li{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(206, 242, 245);
+    margin-bottom: 20px;
+    
+}
+#baixo{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0a046d;
+}
+footer {
+    background: rgb(206, 242, 245);
+    display: flex;
+    justify-content: center;
+}
